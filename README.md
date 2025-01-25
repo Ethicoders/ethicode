@@ -1,1 +1,1 @@
-composer exec statamic [cmd]
+php hyde build
