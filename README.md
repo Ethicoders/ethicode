@@ -1,0 +1,1 @@
+composer exec statamic [cmd]

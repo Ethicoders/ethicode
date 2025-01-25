@@ -1,0 +1,10 @@
+services:
+  php:
+    build: .
+    tty: true
+    entrypoint: /bin/bash
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./:/app
+    working_dir: /app
