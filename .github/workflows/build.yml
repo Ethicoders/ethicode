@@ -38,4 +38,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           remote_url: https://github.com/Ethicoders/ethicode.git
           target_branch: gh-pages
-          target_directory: docs
+          target_directory: _site

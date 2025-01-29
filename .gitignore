@@ -8,5 +8,3 @@ builds
 .phpunit.result.cache
 
 .env
-
-_site
