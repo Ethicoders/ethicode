@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'name' => env('SITE_NAME', 'HydePHP'),
+    'name' => env('SITE_NAME', 'Ethicode'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'language' => 'en',
+    'language' => 'fr',
 
     /*
     |--------------------------------------------------------------------------
@@ -286,9 +286,7 @@ return [
 
     'authors' => [
         Author::create(
-            'mr_hyde', // Required username
-            'Mr. Hyde', // Optional display name
-            'https://hydephp.com' // Optional website URL
+            'ethicode', // Required username
         ),
     ],
 
@@ -308,7 +306,7 @@ return [
     |
     */
 
-    'footer' => 'Site proudly built with [HydePHP](https://github.com/hydephp/hyde) 🎩',
+    'footer' => 'false',
 
     /*
     |--------------------------------------------------------------------------
